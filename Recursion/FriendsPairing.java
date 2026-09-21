@@ -16,10 +16,10 @@ public class FriendsPairing {
         //totalWays
         int totWays = fnm1 + pairWays;
         return totWays;
-
+        
     }
+
     public static void main(String[] args) {
         System.out.println(friendsPairing(3));
-        
     }
 }
