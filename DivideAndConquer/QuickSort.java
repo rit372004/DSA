@@ -43,5 +43,6 @@ public class QuickSort {
         int arr[] = {6, 3, 9, 8, 2, 5};
         quickSort(arr, 0, arr.length - 1);
         printArr(arr);
+        
     }
 }
