@@ -2,13 +2,14 @@ package DivideAndConquer;
 
 public class QuickSort {
     public static void quickSort(int arr[], int si, int ei) {
+        //base case
         if (si >= ei) {
             return;
         }
-        // last elemet
+        // last element
         int pIdx = partition(arr, si, ei);
-        quickSort(arr, si, pIdx - 1); // left
-        quickSort(arr, pIdx + 1, ei); // right
+        quickSort(arr, si, pIdx-1); // left
+        quickSort(arr, pIdx+1, ei); // right
     }
 
     public static int partition(int arr[], int si, int ei) {
@@ -24,6 +25,7 @@ public class QuickSort {
                 arr[i] = temp;
             }
         }
+        // to place pivot at right place
         i++;
         // swap
         int temp = pivot;  
