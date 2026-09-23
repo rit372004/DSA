@@ -42,7 +42,7 @@ public class QuickSort {
     }
 
     public static void main(String[] args) {
-        int arr[] = {6, 3, 9, 8, 2, 5};
+        int arr[] = {6, 3, 9, 8, 2, 5, -3};
         quickSort(arr, 0, arr.length - 1);
         printArr(arr);
         
