@@ -86,16 +86,13 @@ public class Sudoku {
                 { 0, 4, 9, 0, 3, 0, 0, 5, 7 },
                 { 8, 2, 7, 0, 0, 9, 0, 1, 3 } };
 
-                sudukoSolver(sudoku, 0, 0);
-                printSudoku(sudoku);
-
-                // if(sudukoSolver(sudoku, 0 , 0)) {
-                //     System.out.println("solution exists");
-                //     printSudoku(sudoku);
-                // }
-                // else {
-                //     System.out.println("solution does not exists");
-                // }
+                if(sudukoSolver(sudoku, 0 , 0)) {
+                    System.out.println("solution exists");
+                    printSudoku(sudoku);
+                }
+                else {
+                    System.out.println("solution does not exists");
+                }
 
     }
 
