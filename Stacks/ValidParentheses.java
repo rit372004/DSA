@@ -16,7 +16,7 @@ public class ValidParentheses {
             }
             // closing bracket
             else {
-                if (s.isEmpty()) { // '))))'
+                if (s.isEmpty()) {
                     return false;
                 }
                 // pair find

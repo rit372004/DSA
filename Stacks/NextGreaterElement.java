@@ -33,7 +33,15 @@ public class NextGreaterElement {
     }
 
     //next Greater Right
+
     //next Greater Left
-    //next Smalller Right
+    // for (int i=0; i>=arr.length-1; i++)
+
+    //next Smaller Right
+    // while (!s.isEmpty() && arr[s.peek()] >= arr[i]) {
+
     //next Smaller Left
+    // for (int i=0; i>=arr.length-1; i++)
+    // while (!s.isEmpty() && arr[s.peek()] >= arr[i])
+
 }
