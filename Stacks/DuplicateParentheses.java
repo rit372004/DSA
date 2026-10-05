@@ -11,7 +11,7 @@ public class DuplicateParentheses {
             char ch = str.charAt(i);
 
             // closing
-             if (ch == ')') {
+            if (ch == ')') {
 
                 int count = 0;
                 while (s.peek() != '(') {
