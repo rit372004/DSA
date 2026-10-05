@@ -13,7 +13,7 @@ public class DuplicateParentheses {
             // closing
             if (ch == ')') {
 
-                int count = 0;
+                int count = 0;  //count items
                 while (s.peek() != '(') {
                     s.pop();
                     count++;
