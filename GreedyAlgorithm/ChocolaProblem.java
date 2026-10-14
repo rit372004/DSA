@@ -36,5 +36,6 @@ public class ChocolaProblem {
             v++;
         }
 
+        System.out.println("min cost of cuts = " + cost);
     }
 }
