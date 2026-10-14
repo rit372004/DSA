@@ -12,16 +12,18 @@ public class ChocolaProblem {
         Arrays.sort(costHor, Collections.reverseOrder());
 
         int h = 0, v = 0;
-        int hp = 0, vp = 0;
+        int hp = 1, vp = 1;
         int cost = 0;
 
         while(h < costHor.length && v < costVer.length) {
             if(costVer[v] <= costHor[h]) {  //horizontal cut
-                cost += (costHor[h] * hp);
+                cost += (costHor[h] * vp);
                 hp++;
                 h++;
             }else {  //vertical cut
                 cost += (costVer[v] * hp);
+                vp++;
+                v++;
             }
         }
 
