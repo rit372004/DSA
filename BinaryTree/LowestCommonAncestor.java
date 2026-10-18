@@ -39,6 +39,7 @@ public class LowestCommonAncestor {
         return false;
     }
 
+    //Approach1
     public static Node lca(Node root, int n1, int n2) {
         ArrayList<Node> path1 = new ArrayList<>();
         ArrayList<Node> path2 = new ArrayList<>();
@@ -59,6 +60,7 @@ public class LowestCommonAncestor {
         return lca;
     }
 
+    //Apporach2
     public static Node lca2(Node root, int n1, int n2) {
         if (root == null || root.data == n1 || root.data == n2) {
             return root;
@@ -89,9 +91,7 @@ public class LowestCommonAncestor {
         root.right.right = new Node(7);
 
         int n1 = 4, n2 = 5;
-       
-        // System.out.println(lca(root, n1, n2).data);
-
+        System.out.println(lca(root, n1, n2).data);
         System.out.println(lca2(root, n1, n2).data);
     }
 }
