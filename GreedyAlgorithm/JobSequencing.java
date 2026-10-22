@@ -18,7 +18,7 @@ public class JobSequencing {
     }
 
     public static void main(String[] args) {
-        int jobsInfo[][] = { { 4, 20, }, { 1, 10 }, { 1, 40 }, { 1, 30 } };
+        int jobsInfo[][] = { { 4, 20 }, { 1, 10 }, { 1, 40 }, { 1, 30 } };
 
         ArrayList<Job> jobs = new ArrayList<>();
 
