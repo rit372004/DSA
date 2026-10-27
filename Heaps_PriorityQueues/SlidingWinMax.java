@@ -14,10 +14,8 @@ public class SlidingWinMax {
 
         @Override
         public int compareTo(Pair p2) {
-            // ascending
-            // return this.val - p2.val;
-            // decending
-            return p2.val - this.val;
+            // return this.val - p2.val; // ascending
+            return p2.val - this.val; //decending
         }
     }
 
