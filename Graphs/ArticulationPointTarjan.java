@@ -48,7 +48,8 @@ public class ArticulationPointTarjan {
                 dfs(graph, i, -1, dt, low, time, vis, ap);
             }
         }
-        //print all APs
+        
+        // print all APs
         for (int i = 0; i < V; i++) {
             if (ap[i]) {
                 System.out.println("AP : " + i);
