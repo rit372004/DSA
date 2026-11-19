@@ -58,7 +58,7 @@ public class ArticulationPointTarjan {
     }
 
     public static void dfs(ArrayList<Edge> graph[], int curr, int par,
-            int dt[], int low[], int time, boolean vis[], boolean ap[]) {
+        int dt[], int low[], int time, boolean vis[], boolean ap[]) {
         vis[curr] = true;
         dt[curr] = low[curr] = ++time;
         int children = 0;
